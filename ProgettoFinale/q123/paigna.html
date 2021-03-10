@@ -1,0 +1,127 @@
+<html>
+	<head>
+		<link rel="stylesheet"
+	href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+	integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+	crossorigin="anonymous">
+	<style>
+
+nav a:hover {
+	background:goldenrod;
+	color:black;
+}
+
+.container{
+max-width: 1200px; 
+margin: auto;
+background: gold;
+overflow:auto;
+
+}
+
+.gallery{
+margin: 5px;
+border: 1px solid #ccc;
+float: left;
+width: 390px;
+}
+
+.gallery img {
+width: 100%;
+height: auto;
+border: black;
+border-width: 6px;
+}
+
+.desc{
+padding: 15px;
+text-align: center;
+}
+
+
+body{
+	background-color: gold;
+}
+	</style>
+	</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-warning">
+		<a class="navbar-brand" href="ServletHome"><img
+			src="https://www.freepnglogos.com/uploads/cleveland-auto-show-car-logo-png-25.png"
+			width="100x50"></a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse"
+			data-target="#navbarText" aria-controls="navbarText"
+			aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarText">
+			<ul class="navbar-nav mr-auto">
+				<li class="nav-item active"><a class="nav-link"
+					href="parcoauto.jsp">Parco Auto</a></li>
+				<li class="nav-item"><a class="nav-link" href="chisiamo.jsp">Chi
+						Siamo</a></li>
+				<li class="nav-item"><a class="nav-link" href="contatti.jsp">
+						Contatti</a></li>
+			</ul>
+			<a href="/ProgettoFinaleAutonoleggioGeneration/servletesci" class="btn btn-danger"style="margin-right: 2px"> Logout</a> 
+	
+		</div>
+	</nav>
+
+
+
+	<div class="card-body">
+	<h1 style="color: black; text-align: center" font-style=bold>
+		<b> AUTONOLEGGIO 
+	</h1>
+
+	<div class="container">
+	
+		<div class="gallery">
+			<img src="img/mustang.jpg">
+			<div class="desc">Descrizione</div>
+		</div>
+		
+		 <div class="gallery">
+			<img src="C:\Users\babad\OneDrive\Desktop\eclipse-workspace\ProgettoFinaleAutonoleggioGeneration\WebContent\img\dacia.png">
+			<div class="desc">Descrizione</div>
+		</div>
+	
+		<div class="gallery">
+			<img src="camaro.jpg">
+			<div class="desc">Descrizione</div>
+		</div>
+		
+			<div class="gallery">
+			<img src="bmwx3.jpg">
+			<div class="desc">Descrizione</div>
+		</div>
+		
+		</div>
+
+
+	<div class="card-footer">
+		<footer class="blockquote-footer">
+			<div class="footer-copyright text-center py-3">
+				© 2020 Copyright: <a href="https://mdbootstrap.com/">
+					MDBootstrap.com</a>
+			</div>
+		</footer>
+	</div>
+
+
+
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+         integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+		crossorigin="anonymous"></script>
+	<script
+		src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+		integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+		crossorigin="anonymous"></script>
+	<script
+		src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+		integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+		crossorigin="anonymous"></script>
+</body>
+</html>
